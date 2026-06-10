@@ -345,6 +345,150 @@ Show force source → close-up of tension/deformation → wide shot of scale →
 Locked or symmetrical frame; main character remains emotionally restrained. Background/crew/prop chaos escalates around them. Dialogue is casual/off-screen; humor comes from frame relationship and Foley, not slapstick acting.
 ```
 
+### 末日乐园 Corpus — Suspense, apocalypse, micro-performance, and spatial iron laws
+
+Learned from `/Users/kairos/Desktop/opt/video prompt learning/末日乐园 separate prompt` after the NeoWOW corpus. This corpus strengthens the skill for **urban apocalypse, confined-space suspense, dialogue pressure, body-horror reveals, action reversals, and character awakening**. Keep the reusable craft; do not copy raw source prompts.
+
+#### 1) How it complements NeoWOW
+
+NeoWOW teaches the outer production system: `STYLE LOCK → reference anchors → asset-first workflow → shot production blocks → sound design → tail-frame continuity`.
+
+末日乐园 adds the inner suspense-control system:
+
+```text
+空间/角色/道具铁律 → 六钉锚点 → A/B/E区块 → 光源状态机 → 微表演链 → 日常空间失效 → 密室动作棋盘 → 逐镜负面排错 → 余波/觉醒尾帧
+```
+
+Merged high-control template:
+
+```text
+【STYLE LOCK】genre, render/live-action rule, lens grammar, texture, aspect ratio, no unwanted style.
+【参考锚定】which reference controls character / space / prop / palette / voice; forbid cross-contamination.
+【空间铁律】room geometry, doors/windows/stairs, who stands/sits where, who can see whom, prop coordinates, movement axis.
+【六钉锚点】5-6 immutable scene anchors such as cup, fries, knife rack, window, elevator button, island counter.
+【镜头时间轴】shot number + seconds + focal length/aperture + camera height + movement + start/middle/end action + tail-frame.
+【光源状态机】what light exists, when it turns on/off, what is visible in darkness, flash/lightning frequency, color temperature.
+【微表演链】eyes, eyelids, lips, throat, breath, fingers, shoulders, gait, sweat, muscle tension instead of abstract emotion.
+【声音节拍】no BGM unless needed; rain, thunder, AC hum, footsteps, breath, glass, water, cloth, voice distance, silence.
+【动作物理】force source, body position, distance, impact direction, debris/water/glass response, aftermath.
+【逐镜负面约束】no wrong positions, wrong hands, prop drift, random cuts, overacting, wrong light, cartoon/cheap filter.
+```
+
+#### 2) Suspense and horror directing rules
+
+- **Start with environment failure**: modern systems stop working — heat becomes unbearable, rain steams off the ground, lights fail, elevator buttons do not respond, city blocks go dark. Apocalypse feels stronger when daily infrastructure betrays the character.
+- **Make fear physical**: replace “she is scared” with breath becoming shallow, fingers freezing, pupils widening, lips parting without sound, throat swallowing, feet hesitating, sweat sticking fabric to skin.
+- **Use everyday props as emotional triggers**: cola condensation, fries, a straw mark, thermometer digits, elevator button, knife rack, broken glass, playing/card-like remains. Show the prop before it becomes plot.
+- **Delay the full monster reveal**: introduce a predatory character through hands, shoes, reflection, voice, engine sound, environmental reaction, or two-frame flashes before showing the complete face/body.
+- **Let politeness become horror**: a villain asking about dinner, offering a drink, or speaking softly can feel more dangerous than shouting if the action is mechanical, emotionless, and spatially controlling.
+
+#### 3) Spatial iron laws and scene anchors
+
+For confined scenes, write a mini blocking bible before shots:
+
+```text
+空间铁律：落地窗在北侧，厨房岛台在画面右侧，电梯门在远景左后方；角色A坐在桌内侧背对门，角色B站在桌边，角色C面对入口；刀架固定在岛台后缘；全段不得换位。
+六钉锚点：可乐杯、薯条盒、托盘、窗玻璃、门把手、刀架/按钮/温度计。每镜保持位置、材质、湿度或反光一致。
+可见关系：谁先看到危险，谁背对危险，谁只通过声音察觉。
+```
+
+This prevents AI video drift and creates readable tension. In dialogue or confrontation, spatial information is drama: who stands, who sits, who blocks an exit, who is closer to the knife/elevator/window.
+
+#### 4) Light-source state machine
+
+末日乐园 prompts often make light a rule system, not decoration:
+
+- **Lightning-only rule**: when lightning flashes, the room is visible; between flashes, the frame is truly black or nearly unreadable. Do not allow random fill light.
+- **Cold/warm collision**: warm fast-food or apartment light against cold lightning, fridge light, city darkness, or storm light creates psychological contrast.
+- **Light as edit point**: each flash can reveal a new pose, closer distance, changed expression, or missing subject.
+- **Failure beats**: lamp does not turn on, elevator display stays dead, city lights extinguish floor by floor, glass boundary breaks and storm light enters.
+
+Write light as cause/effect:
+
+```text
+0-2s: pure darkness except rain sound.
+2.0s: lightning freezes the room for six frames, revealing the figure two meters closer.
+2.2-4s: darkness returns; only breath and wet footsteps remain.
+```
+
+#### 5) Dialogue pressure and social dread
+
+For conversation scenes, do not write a transcript only. Use:
+
+- table/prop anchors: cup condensation, fries, tray, paper napkin, straw, knife, phone;
+- hand choreography: reaches out, stops, retracts, crushes paper, rubs condensation, touches knife handle;
+- belief gap: one character jokes or disbelieves while another is silently terrified;
+- power geometry: one stands while one sits; low-angle tabletop shot makes the standing character dominate;
+- sound vacuum: restaurant noise or room tone drops for one line, then returns.
+
+Template:
+
+```text
+Shot 1 establishes table geometry and who can see the door.
+Shot 2 isolates the dangerous line of dialogue while background noise falls away.
+Shot 3 cuts to hands/prop reaction, not the face.
+Shot 4 shows the listener misreading the danger, restoring noisy normal life.
+Tail frame keeps the threatening character entering/standing in a dominant position.
+```
+
+#### 6) Confined action and reversal structure
+
+Use a physical chessboard for fights:
+
+1. **Before action**: mark body positions, heights, obstacles, exits, weapon distance, ground condition.
+2. **Hope beat**: the protagonist sees or reaches a tool, e.g. a knife 5 cm from the hand.
+3. **Delay beat**: fingers slip, breath fails, villain misunderstands or enjoys the moment.
+4. **Impact beat**: the tool lands; show entry point, resistance, sound, facial change.
+5. **Aftermath beat**: confirm death, check the body, retreat, discover wound healing or new rule.
+6. **Scale beat**: move from room-level survival to city/world-level apocalypse.
+
+Rule: **after an action climax, always write the residue** — water ripples, glass shifts, breath returns, hand trembles, corpse does not move, wound seals, city is silent.
+
+#### 7) Negative prompting as shot-by-shot QA
+
+For high-control video prompts, generic negatives are not enough. Add shot-specific failure prevention:
+
+- no character swapping positions or facing the wrong direction;
+- no wrong hand touching the knife/card/button;
+- no prop teleporting, floating, disappearing, or changing scale;
+- no random fill light if the rule is darkness/lightning only;
+- no emotional overacting when the intended tone is restrained terror;
+- no random cut to a new room, exterior, or abstract montage;
+- no cartoon filter, cheap horror glow, fake blood spray, or decorative VFX replacing physical evidence;
+- no BGM if the scene depends on rain, breath, thunder, glass, water, and silence.
+
+#### 8) Micro-templates from 末日乐园
+
+**Prop-triggered realization**:
+
+```text
+Medium close-up. The character's fingertip rubs cold condensation on the cup; the motion suddenly stops. The ambient room tone drops. Rack focus from the wet fingertip to the eyes; pupils widen, breath becomes shallow, lips part but no words come. Tail frame holds the hand frozen beside the prop.
+```
+
+**Predator entrance without full face**:
+
+```text
+Start with engine/footstep/door sound. Cut to shoes, hand, reflection, silhouette, or object reaction. Keep the full face hidden until the victim sees him. Environment sound compresses for the reveal; the first full-face frame is motivated by the victim's eye-line.
+```
+
+**Lightning horror beat**:
+
+```text
+The room is black. A lightning flash reveals the figure at the far end. Darkness returns. Wet footsteps move closer off-screen. A second flash reveals the figure much nearer, face still unreadable. No fill light, no BGM, only rain, breath, and delayed thunder.
+```
+
+**Conversation pressure**:
+
+```text
+One character stands beside the table, the other sits with hands near a cup/napkin. Low tabletop angle makes the standing figure dominate. Dialogue stays polite. The seated character's fear is shown through tiny hand movements and swallowed breath; restaurant noise briefly drops on the dangerous line.
+```
+
+**Reversal and aftermath**:
+
+```text
+The weapon is visible just out of reach. Fingers drag through water/glass toward it. Impact happens only after a delayed breath beat. After the strike, hold on the body, the protagonist's shaking hand, the sound of water and glass, then reveal the new rule or next-scale threat.
+```
+
 ## Output Quality Checklist
 
 Before giving the user a video prompt, verify:
